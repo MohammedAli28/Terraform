@@ -22,7 +22,7 @@ resource "aws_db_subnet_group" "sub_grp" {
 }
 resource "aws_db_instance" "default" {
   allocated_storage            = var.db_allocated_storage
-  db_name                      = "test-db"
+  db_name                      = "testdb"
   identifier                   = var.db_identifier
   engine                       = var.db_engine
   engine_version               = var.db_engine_version
