@@ -1,8 +1,9 @@
-
-
+provider "aws" {
+  region = "us-east-1"
+}
 module "rds" {
     
-    source = "github.com/CloudTechDevOps/Terraform-0730am/Day-10-RDS-module"
+    source = "github.com/MohammedAli28/Terraform/Day-11-RDS-module"
     #user your github source
     vpc_cidr = "10.0.0.0/16"
 

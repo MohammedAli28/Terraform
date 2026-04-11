@@ -35,6 +35,7 @@ variable "db_identifier" {
 variable "db_name" {
   description = "Initial database name"
   type        = string
+  default = ""
 }
 
 variable "db_engine" {
