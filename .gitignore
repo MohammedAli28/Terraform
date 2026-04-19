@@ -15,4 +15,4 @@ Day-14-provisioners-with-DB/Remote-Exec/my-key.pem
 Day-14-provisioners/my-key.pem
 
 # OR ignore ALL .pem files in the entire project
-*.pem
+*.pem*.pem
